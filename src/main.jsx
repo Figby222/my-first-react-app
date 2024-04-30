@@ -9,6 +9,7 @@ import NoContainer from './components/NoContainer.jsx';
 import SelfClosingTags from './components/SelfClosingTags.jsx';
 import HTMLDefinitionChanges from './components/HTMLDefinitionChanges.jsx';
 import FixHTML from './components/FixHTML.jsx';
+import JavaScriptIntegration from './components/JavaScriptIntegration.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -19,5 +20,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <SelfClosingTags />
     <HTMLDefinitionChanges />
     <FixHTML/>
+    <JavaScriptIntegration />
   </React.StrictMode>,
 )
