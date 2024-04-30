@@ -11,6 +11,7 @@ import HTMLDefinitionChanges from './components/HTMLDefinitionChanges.jsx';
 import FixHTML from './components/FixHTML.jsx';
 import JavaScriptIntegration from './components/JavaScriptIntegration.jsx';
 import RenderedExpressions from './components/RenderedExpressions.jsx';
+import Props from './components/Props.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -23,5 +24,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <FixHTML/>
     <JavaScriptIntegration />
     <RenderedExpressions />
+    <Props />
   </React.StrictMode>,
 )
