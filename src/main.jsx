@@ -10,6 +10,7 @@ import SelfClosingTags from './components/SelfClosingTags.jsx';
 import HTMLDefinitionChanges from './components/HTMLDefinitionChanges.jsx';
 import FixHTML from './components/FixHTML.jsx';
 import JavaScriptIntegration from './components/JavaScriptIntegration.jsx';
+import RenderedExpressions from './components/RenderedExpressions.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -21,5 +22,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <HTMLDefinitionChanges />
     <FixHTML/>
     <JavaScriptIntegration />
+    <RenderedExpressions />
   </React.StrictMode>,
 )
