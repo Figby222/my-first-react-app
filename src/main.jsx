@@ -8,6 +8,7 @@ import { GetCookies } from './components/GetCookies.jsx';
 import NoContainer from './components/NoContainer.jsx';
 import SelfClosingTags from './components/SelfClosingTags.jsx';
 import HTMLDefinitionChanges from './components/HTMLDefinitionChanges.jsx';
+import FixHTML from './components/FixHTML.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -17,5 +18,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <NoContainer />
     <SelfClosingTags />
     <HTMLDefinitionChanges />
+    <FixHTML/>
   </React.StrictMode>,
 )
