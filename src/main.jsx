@@ -12,6 +12,7 @@ import FixHTML from './components/FixHTML.jsx';
 import JavaScriptIntegration from './components/JavaScriptIntegration.jsx';
 import RenderedExpressions from './components/RenderedExpressions.jsx';
 import Props from './components/Props.jsx';
+import ConditionalProps from './components/ConditionalProps.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -25,5 +26,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <JavaScriptIntegration />
     <RenderedExpressions />
     <Props />
+    <ConditionalProps />
   </React.StrictMode>,
 )
