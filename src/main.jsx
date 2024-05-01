@@ -14,6 +14,7 @@ import RenderedExpressions from './components/RenderedExpressions.jsx';
 import Props from './components/Props.jsx';
 import ConditionalProps from './components/ConditionalProps.jsx';
 import EmptyList from './components/EmptyList.jsx';
+import EmptyListTernaries from './components/EmptyListTernaries.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -29,5 +30,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Props />
     <ConditionalProps />
     <EmptyList />
+    <EmptyListTernaries />
   </React.StrictMode>,
 )
