@@ -17,6 +17,7 @@ import EmptyList from './components/EmptyList.jsx';
 import EmptyListTernaries from './components/EmptyListTernaries.jsx';
 import State from './components/State.jsx';
 import MoreState from './components/MoreState.jsx';
+import Person from './components/Person.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -35,5 +36,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <EmptyListTernaries />
     <State />
     <MoreState />
+    <Person />
   </React.StrictMode>,
 )
