@@ -16,6 +16,7 @@ import ConditionalProps from './components/ConditionalProps.jsx';
 import EmptyList from './components/EmptyList.jsx';
 import EmptyListTernaries from './components/EmptyListTernaries.jsx';
 import State from './components/State.jsx';
+import MoreState from './components/MoreState.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -33,5 +34,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <EmptyList />
     <EmptyListTernaries />
     <State />
+    <MoreState />
   </React.StrictMode>,
 )
