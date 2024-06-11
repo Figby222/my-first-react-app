@@ -19,6 +19,7 @@ import State from './components/State.jsx';
 import MoreState from './components/MoreState.jsx';
 import Person from './components/Person.jsx';
 import Clock from './components/Clock.jsx';
+import ClassInput from './components/ClassInput.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -39,5 +40,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <MoreState />
     <Person />
     <Clock />
+    <ClassInput />
   </React.StrictMode>,
 )
