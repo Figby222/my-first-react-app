@@ -18,6 +18,7 @@ import EmptyListTernaries from './components/EmptyListTernaries.jsx';
 import State from './components/State.jsx';
 import MoreState from './components/MoreState.jsx';
 import Person from './components/Person.jsx';
+import Clock from './components/Clock.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -37,5 +38,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <State />
     <MoreState />
     <Person />
+    <Clock />
   </React.StrictMode>,
 )
